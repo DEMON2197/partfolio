@@ -1,0 +1,9 @@
+.overlay {display:none; position:fixed; z-index:999; opacity:0.5; filter:alpha(opacity=50); top:0; right:0; left:0; bottom:0; background:#000; }
+.popup {display:none; position:fixed; border:3px solid #999; background:#fff; width:400px; height:220px; top:50%; left:50%; margin:-200px 0 0 -200px; z-index:1000;  border-radius:10px; padding:30px; box-shadow: 0 0 20px rgba(0,0,0,0.9)}
+.close {display:block; width:24px; height:24px; line-height:24px; text-align:center; cursor:pointer;   background:#eee; color:#111; border:2px solid #777;  position:absolute; top:-12px; right:-12px; text-decoration:none; border-radius:50%; font-size:18px;  box-shadow: 0 0 4px rgba(0,0,0,0.9)}
+
+.open_popup {cursor:pointer; }
+.open_popup:hover {text-decoration:none;  }
+
+.popup h3 {margin: -10px 0 10px 0; padding: 0;}
+.popup input {width:100%; border: 2px solid #8fc941}
